@@ -2,8 +2,10 @@
 
 int main() {
   
-//Faça o algoritmo em c para calcular quanto será pago por um 
-// produto (PAG), sendo que o preço do produto (PR) e o desconto (D) são fornecidos pelo usuário. 
+//Faça o algoritmo em c para calcular 
+//quanto será pago por um produto (PAG), 
+//sendo que o preço do produto (PR) e o desconto (D) 
+//são fornecidos pelo usuário. 
 // Apresentar o valor a ser pago pelo produto.
 
   float pr, d, pag;
@@ -11,7 +13,7 @@ int main() {
   // Pedir o preço do produto ao usuário
 
   printf("Digite o preço do produto: ");
-  scanf("%f", &pr);
+  scanf("%f", &pr); // pr = preco do produto
 
   // Pedir o desconto ao usuário
 
@@ -26,7 +28,7 @@ int main() {
 
   printf("O valor a ser pago é: %.2f reais\n", pag);
 
-  
-
   return 0;
+
+  
 }
