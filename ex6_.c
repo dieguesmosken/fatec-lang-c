@@ -2,32 +2,26 @@
 
 int main() {
   
-// Faça o algoritmo (diagrama de blocos e português 
-// estruturado) para calcular qual foi a porcentagem 
-//de desconto dada em um determinado produto (DESC),
-// sabendo-se o preço original do produto (PRECO) 
-// e o preço que foi cobrado por ele depois do 
-//desconto (PRECOF).
+// Faça  o  algoritmo em c que  calcule  a  idade  de  uma  
+//pessoa, sendo  que  o  ano  atual  (AA)  e  o  ano  do  
+//nascimento  da  pessoa  (AN)  são  fornecidos  pelo  usuário. 
+// (considere  que  a  pessoa  já  fez  aniversário  nesse  ano).
+//  Apresentar  a  idade  da  pessoa  depois  de calculada
 
-  float desc, preco, precof;
+int AA, AN, idade;
 
-  // Pedir o preço do produto ao usuário
+printf("Digite o ano atual: ");
+scanf("%d", &AA);
 
-  printf("Digite o preço do produto: ");
-  scanf("%f", &preco); // pr = preco do produto
+printf("Digite o ano de nascimento: ");
+scanf("%d", &AN);
 
-  // Pedir o preco apos o desconto ao usuário
+idade = AA - AN;
 
-  printf("Digite o preco apos desconto: ");
-  scanf("%f", &precof);
+printf("A idade da pessoa é: %d", idade);
 
-  // Calcular a porcentagem de desconto
-
-  desc = ((preco - precof) / preco) * 100;
-
-  // Exibir a porcentagem de desconto
-
-  printf(" %.0f porcento de desconto\n", desc);
+//exemplo de entrada: 2023, 2002
+//exemplo de saída: 21
 
   return 0;
 
