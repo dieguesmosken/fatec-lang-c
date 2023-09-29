@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
 //fim
 
 //em c:
-int A, B, C, RESULTADO, RASCUNHO;
+int A, B, C, RESULTADO;
 
 printf("Digite o valor de A: ");
 scanf("%d", &A);

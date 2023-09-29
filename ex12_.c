@@ -43,5 +43,14 @@ printf("A variável D vale: %.2f\n", D);
 
   return 0;
 
+
+
+
+  //entrada
+
+  //processamento
+
+  //saída
+
   
 }
